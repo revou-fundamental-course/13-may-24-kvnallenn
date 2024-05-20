@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luas-segitiga{
+    padding-bottom: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.luas{
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alas, .tinggi{
+    width: 300px;
+    height: 25px;
+}
+
+.hitung{
+    background-color: #2880b9;
+    color: white;
+    border: 0px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.reset{
+    background-color: #efad4e;
+    color: white;
+    border: 0px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 245px;
+}
+
+.sisi{
+    width: 300px;
+    height: 25px;
+}

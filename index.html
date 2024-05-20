@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kalkulator Matematik (Segitiga)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="luas">
+        <div class="luas-segitiga" id="form">
+        <h1>Hitung Luas Segitiga</h1>
+        <input type="text" required class="alas" id="alas" placeholder="Nilai Alas">
+        <br><br>
+        <input type="text" class="tinggi" id="tinggi" placeholder="Nilai Tinggi" required>
+        <br>
+        <br>
+        <div id="label-list" hidden>
+        <label>L = 1/2 x a x t</label>
+        <br>
+        <label>L = 1/2 x <label id="jsalas"></label> x <label id="jstinggi"></label>
+        <br>
+        <label>L = <label id="jstotal"> </label>
+        <br>
+        <br>
+        </div>
+        <button class="hitung" onclick="luassegitiga()" id="button-default">Hitung</button>
+        <br><br>
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+    </div>
+    <div class="luas">
+        <div class="luas-segitiga" id="form">
+        <h1>Hitung Keliling Segitiga</h1>
+        <input type="text" class="sisi" id="sisi1" placeholder="Sisi 1" required>
+        <br><br>
+        <input type="text" class="sisi" id="sisi2" placeholder="Sisi 2" required>
+        <br><br>
+        <input type="text" class="sisi" id="sisi3" placeholder="Sisi 3" required>
+        <br><br>
+        <div id="keliling-list" hidden>
+            <label>K = S1 + S2 + S3</label>
+            <br>
+            <label>K = <label id="jss1"></label> + <label id="jss2"></label> + <label id="jss3"></label>
+            <br>
+            <label>K = <label id="js-total"> </label>
+            <br>
+            <br>
+        </div>
+        <button class="hitung" onclick="kelilingsegitiga()">Hitung</button>
+        <br><br>
+        <button class="reset" onclick="resetKeliling()">Reset</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
