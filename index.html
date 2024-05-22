@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav><button onclick="window.location.href='#segitiga-luas';">Luas</button><button onclick="window.location.href='#segitiga-keliling';">Keliling</button></nav>
    <div class="container">
+    <section id="segitiga-luas">
     <div class="luas">
         <div class="luas-segitiga" id="form">
         <h1>Hitung Luas Segitiga</h1>
@@ -30,8 +32,10 @@
         <button class="reset" onclick="reset()">Reset</button>
     </div>
     </div>
-    <div class="luas">
-        <div class="luas-segitiga" id="form">
+    </section>
+    <section id="segitiga-keliling">
+    <div class="keliling">
+        <div class="luas-segitiga">
         <h1>Hitung Keliling Segitiga</h1>
         <input type="text" class="sisi" id="sisi1" placeholder="Sisi 1" required>
         <br><br>
@@ -53,6 +57,7 @@
         <button class="reset" onclick="resetKeliling()">Reset</button>
         </div>
     </div>
+    </section>
     </div>
 
     <script src="js/script.js"></script>
